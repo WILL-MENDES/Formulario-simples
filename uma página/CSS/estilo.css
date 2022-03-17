@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image:url(../fundo4.png);
+    width: auto;
+}
+.logo{
+    margin-left: 10px;
+}
+.volta{
+    margin-left: 20%;
+    margin-right: 55%;
+    color:aliceblue
+}
+.block{
+    display: block;
+}
+form{
+    margin-right: 300px;
+    float:right ;
+    border: 2px  black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px ;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 250px;
+    width: 300px;
+    background-color:lightgrey;
+}
+.topinho{
+    
+    color: white;
+    text-align: center;
+    background-color: rgb(245, 165, 17);
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px ;
+    
+}
+.inicio{
+    text-align: center;
+}
+input{
+    
+    text-align: center;
+}
+button{
+    padding: 5px;
+    background-color: rgb(245, 165, 17);
+    color: white;
+    border-radius: 5px;
+    border-color: cadetblue;
+    border-style:none ;
+}
+
+button:hover  { 
+    border: 2px solid rgb(0, 0, 0);
+}
+.ove{
+    overflow: scroll;
+    height: 135px;
+}
+.ove::-webkit-scrollbar-corner{
+    width: 0%;
+}
+.ove::-webkit-scrollbar{
+    opacity: 1;
+}
+.ove::-webkit-scrollbar-thumb{
+    background-color: rgb(245, 165, 17);
+}
